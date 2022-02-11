@@ -1,0 +1,72 @@
+body {
+  color: #401F00;
+  background: #DFB58D;
+  padding: 0px 20px 0px 20px;
+}
+
+Div {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  padding: 2px 0px 2px 0px;
+}
+
+button {
+  background: #AA7039;
+  color: white;
+  border-color: dimgrey;
+  border-radius: 3px;
+  border-width: 1px;
+  font-size: 0.7em;
+  padding: 3px 5px 3px 5px;
+}
+
+#titleEnter {
+  margin-left: 4px;
+}
+
+#titleDiv {
+  padding: 26px 0px 26px 0px;
+}
+
+.hide {
+  display: none;
+}
+
+.doneButton {
+  margin: 0px 0px 0px 8px;
+}
+
+.delButton {
+  margin: 0px 0px 0px 20px;
+  display: none;
+}
+
+.bottomPad {
+  padding-bottom: 20px;
+}
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
