@@ -63,6 +63,10 @@ function createListItem() {
 	div[i].addEventListener("mouseleave", () => {
 		event.target.children[1].style.display = "none";
 	})}
+	//crossOut
+	li.addEventListener("click", () => {
+		event.target.classList.toggle("done")
+	});
 }
 function addListByClick() {
 	if (inputLength() > 0) {
